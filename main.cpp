@@ -3,7 +3,11 @@
 using namespace std;
 
 void registerUser() {
-    
+    string username, password;
+    cout << "Enter the new username: "; cin >> username;
+    cout << "Enter the new password: "; cin >> password;
+
+    cout << "Registered user " << username << "!\n";
 }
 
 void logInUser() {
